@@ -1,0 +1,15 @@
+﻿<Window x:Class="Lab4.Window4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab4"
+        mc:Ignorable="d"
+        Background="AliceBlue"
+        Title="Window4" Height="450" Width="800">
+    <Grid>
+        <TextBox Name="Input" VerticalAlignment="Top" Margin="50,50,50,0" Width="200"/>
+        <Button Content="Перетворити" VerticalAlignment="Top" Margin="50,120,50,0" Click="Convert"/>
+        <Label Name="KG" BorderBrush="Black" BorderThickness="1" VerticalAlignment="Bottom" HorizontalAlignment="Center" Width="200" Height="25" Margin="0,0,0,180" Background="White"/>
+    </Grid>
+</Window>
